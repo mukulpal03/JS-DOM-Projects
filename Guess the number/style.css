@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(135deg, #2b5876 0%, #4e4376 100%);
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+#wrapper {
+    text-align: center;
+    padding: 30px;
+    border-radius: 15px;
+    background: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(10px);
+    width: 350px;
+    max-width: 100%;
+}
+
+h1 {
+    font-size: 28px;
+    margin: 0 0 15px 0;
+    color: #f7b733;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    letter-spacing: 1.5px;
+}
+
+p {
+    font-size: 18px;
+    margin: 10px 0;
+    color: #e0e0e0;
+    line-height: 1.5;
+}
+
+form {
+    margin: 20px 0;
+}
+
+label {
+    display: block;
+    margin-bottom: 15px;
+    font-size: 16px;
+    color: #ffdd57;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+input[type="text"] {
+    width: calc(100% - 22px);
+    padding: 12px;
+    margin-bottom: 15px;
+    font-size: 16px;
+    border: 1px solid #6a6a8a;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #ffffff;
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease;
+}
+
+input[type="text"]:focus {
+    border-color: #f7b733;
+    outline: none;
+    box-shadow: 0 0 8px rgba(247, 183, 51, 0.5);
+}
+
+input[type="submit"] {
+    width: 100%;
+    padding: 12px;
+    font-size: 18px;
+    border: none;
+    border-radius: 8px;
+    background-color: #f7b733;
+    color: #ffffff;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+input[type="submit"]:hover {
+    background-color: #e69500;
+    transform: scale(1.05);
+}
+
+.resultParas {
+    margin-top: 25px;
+}
+
+.resultParas p {
+    margin: 8px 0;
+    color: #ffdd57;
+    font-weight: bold;
+}
+
+.lowOrHi {
+    font-size: 20px;
+    font-weight: bold;
+    color: #ff4500;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+#newGame {
+    display: inline-block;
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    background-color: #4caf50; /* Green background */
+    color: white; /* White text */
+    border: 2px solid #4caf50; /* Green border */
+    border-radius: 8px; /* Rounded corners */
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+  }
+  
+#newGame {
+    background-color: #45a049; /* Darker green background on hover */
+    border-color: #45a049; /* Darker green border on hover */
+  }
+  
+#newGame {
+    background-color: #3e8e41; /* Darker shade of green on click */
+    border-color: #3e8e41; /* Darker shade of green border on click */
+  }
+  
